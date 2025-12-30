@@ -1,12 +1,76 @@
-# React + Vite
+# 🤖 Gemini Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, modern, and responsive AI chatbot application built with React and powered by Google's Gemini Pro API. This clone replicates the core features and aesthetic of the Gemini interface, providing a premium user experience.
 
-Currently, two official plugins are available:
+![Gemini Clone Preview](https://github.com/PriyobrotoKarmakar/Gemini-Clone/raw/main/public/preview.png) _(Add your screenshot here)_
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Gemini AI Integration**: Seamless communication with Google's latest `gemini-2.0-flash` (or latest) model.
+- **Responsive Design**: Fully functional on desktop, tablet, and mobile devices.
+- **Dynamic Sidebar**: Manage recent chats and collapse/expand for a cleaner workspace.
+- **Real-time Interaction**: Instant AI responses with smooth loading animations.
+- **Modern UI**: Dark-themed, glassmorphic design inspired by the official Gemini interface.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tech Stack
+
+- **Frontend**: [React.js](https://reactjs.org/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **AI Model**: [Google Generative AI SDK](https://www.npmjs.com/package/@google/generative-ai)
+- **Styling**: Vanilla CSS (Custom Hooks & Components)
+- **Icons**: FontAwesome / Custom Assets
+
+## 🛠️ Installation & Setup
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/PriyobrotoKarmakar/Gemini-Clone.git
+   cd Gemini-Clone
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Configure Environment Variables:**
+   Create a `.env` file in the root directory and add your API key:
+
+   ```env
+   VITE_GEMINI_API_KEY=your_api_key_here
+   ```
+
+   _Get your API key from [Google AI Studio](https://aistudio.google.com/app/apikey)._
+
+4. **Run the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+5. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## 🏗️ Project Structure
+
+```text
+src/
+├── assets/          # Images and static assets
+├── components/      # Reusable UI components (Main, Sidebar)
+├── config/          # Gemini API configuration
+├── context/         # React Context for state management
+├── App.jsx          # Root component
+└── main.jsx         # Entry point
+```
+
+## 🛡️ Security Note
+
+This project uses an `.env` file to protect the Google API Key. Ensure `.env` is listed in your `.gitignore` before pushing to any public repository.
+
+---
+
+Made with ❤️ by [Priyobroto Karmakar](https://github.com/PriyobrotoKarmakar)
