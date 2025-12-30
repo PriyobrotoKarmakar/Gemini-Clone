@@ -2,7 +2,7 @@
 
 A sleek, modern, and responsive AI chatbot application built with React and powered by Google's Gemini Pro API. This clone replicates the core features and aesthetic of the Gemini interface, providing a premium user experience.
 
-![Gemini Clone Preview](https://github.com/PriyobrotoKarmakar/Gemini-Clone/raw/main/public/preview.png) _(Add your screenshot here)_
+![Gemini Clone Preview](https://github.com/PriyobrotoKarmakar/Gemini-Clone/raw/main/public/preview.png)
 
 ## ✨ Features
 
